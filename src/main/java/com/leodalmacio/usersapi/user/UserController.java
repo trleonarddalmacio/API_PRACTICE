@@ -32,7 +32,8 @@ public class UserController {
 	}
 	
 	@RequestMapping(method=RequestMethod.PUT, value="/users/{id}")
-	public void updateCourse(@RequestBody User user) {
+	public void updateCourse(@RequestBody User user, @PathVariable Long id) {
+		user.setId(id);
 		userService.updateUser(user);
 	}
 	
