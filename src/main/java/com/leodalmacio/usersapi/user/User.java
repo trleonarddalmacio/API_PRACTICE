@@ -1,4 +1,4 @@
-package com.leodalmacio.usersapi.course;
+package com.leodalmacio.usersapi.user;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

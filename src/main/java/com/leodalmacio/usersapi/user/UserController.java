@@ -1,4 +1,4 @@
-package com.leodalmacio.usersapi.course;
+package com.leodalmacio.usersapi.user;
 
 import java.util.List;
 
