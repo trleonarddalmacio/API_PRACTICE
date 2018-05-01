@@ -1,4 +1,4 @@
-package com.leodalmacio.usersapi.user;
+package userDaoPractice;
 
 import java.util.List;
 

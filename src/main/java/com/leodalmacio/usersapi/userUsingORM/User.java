@@ -1,4 +1,4 @@
-package com.leodalmacio.usersapi.user;
+package com.leodalmacio.usersapi.userUsingORM;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

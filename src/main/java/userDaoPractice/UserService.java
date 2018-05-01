@@ -1,4 +1,4 @@
-package com.leodalmacio.usersapi.user;
+package userDaoPractice;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,10 +12,11 @@ public class UserService {
 
 	@Autowired
 	private UserRepository userRepository;
-	
+	@Autowired
+	private UserDAO userDAO;
 	
 	public List<User> getAllUsers() {
-		return userRepository.findAll();
+		return userDAO.getAllUsers();
 	}
 	
 	public User getUser(Long id) {
